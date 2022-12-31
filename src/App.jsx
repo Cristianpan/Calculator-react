@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Screen from "./Components/Screen";
 import ButtonCalculator from "./Components/ButtonCalculator";
 import { evaluate } from "mathjs";
