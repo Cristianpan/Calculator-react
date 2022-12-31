@@ -7,4 +7,6 @@ If you want to use this calculator, you should do the following septs:
  - Install the modules with the `npm install` command
  - Finally, use the `npm run dev` command at the command prompt
   
+## Demo 
+If you want to test the project, [click here](https://calculator-vite-react.netlify.app/)
 
