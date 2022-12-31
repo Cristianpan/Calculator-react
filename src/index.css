@@ -7,7 +7,7 @@
 
 @layer base {
   html {
-      font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   body {
@@ -17,12 +17,12 @@
     height: 100vh;
     background: hsla(37, 79%, 75%, 1);
 
-background: linear-gradient(90deg, hsla(37, 79%, 75%, 1) 0%, hsla(13, 68%, 63%, 1) 100%);
+    background: linear-gradient(90deg, hsla(37, 79%, 75%, 1) 0%, hsla(13, 68%, 63%, 1) 100%);
 
-background: -moz-linear-gradient(90deg, hsla(37, 79%, 75%, 1) 0%, hsla(13, 68%, 63%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(37, 79%, 75%, 1) 0%, hsla(13, 68%, 63%, 1) 100%);
 
-background: -webkit-linear-gradient(90deg, hsla(37, 79%, 75%, 1) 0%, hsla(13, 68%, 63%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(37, 79%, 75%, 1) 0%, hsla(13, 68%, 63%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F2CC8F", endColorstr="#E07A5F", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F2CC8F", endColorstr="#E07A5F", GradientType=1);
   }
 }
