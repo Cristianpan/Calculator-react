@@ -158,7 +158,7 @@ function App() {
             handleClick={handleUpdateInput}
             style={"bg-whitePrimary hover:bg-whiteSecundary border-b border-r"}
           >
-            3
+            1
           </ButtonCalculator>
           <ButtonCalculator
             handleClick={handleUpdateInput}
@@ -170,7 +170,7 @@ function App() {
             handleClick={handleUpdateInput}
             style={"bg-whitePrimary hover:bg-whiteSecundary border-b border-r"}
           >
-            1
+            3
           </ButtonCalculator>
           <ButtonCalculator
             handleClick={handleUpdateInput}
