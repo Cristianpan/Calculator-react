@@ -16,7 +16,7 @@ function App() {
     const expresion = /^(\-[0-9\.]+|[0-9\.]+)((\+|\-|x|\/)[0-9\.]+)*$/;
 
     if (expresion.test(operation)) {
-      result = evaluate(operation.replace("x", "*")).toString();
+      result = evaluate(operation.replaceAll("x", "*")).toString();
       if (result.length > 10) {
         result = result.substring(0, 10);
       }
@@ -27,7 +27,7 @@ function App() {
   const handleUpdateInput = (value) => {
     //Declaracion de valores del input
     let operation; 
-
+    
     if (input.operation.length < 15) {
       if (input.result !== '' && input.operation === '' && (value === '+' | value === '-' | value === '/' | value === 'x'))
         operation = input.result + value; 
@@ -41,6 +41,7 @@ function App() {
         result,
       };
 
+      
       setInput(newInput);
     }
   };
